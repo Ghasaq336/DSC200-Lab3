@@ -1,11 +1,9 @@
 Lab 3 - Plastic Waste
 ================
 DSC 200 - Data Science I
-2021-02-06
+2021-02-15
 
-Student Name:
-
-Student ID:
+Student Name:Ghasaq Hani Al-Dhamen G:DS6 Student ID:2201003339
 
 ``` r
 library(tidyverse)
@@ -111,11 +109,20 @@ E2. Recreate the density plots above using a different (lower) alpha
 level that works better for displaying the density curves for all
 continents.
 
+``` r
+ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent, 
+                     fill = continent)) +
+  geom_density(alpha = 0.2)
+```
+
 E3. Describe why we defined the `color` and `fill` of the curves by
 mapping aesthetics of the plot but we defined the `alpha` level as a
 characteristic of the plotting geom.
 
-Answer here:
+Answer here: We chose to fill in color to be able to better read the
+curves.
 
 *Now is a good time to knit your document and commit and push your
 changes to GitHub with an appropriate commit message. Make sure to
