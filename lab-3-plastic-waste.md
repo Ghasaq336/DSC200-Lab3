@@ -160,6 +160,18 @@ apparent in the box plots but not in the violin plots?
 
 **Remember:** We use `geom_point()` to make scatterplots.
 
+``` r
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
+```
+
+Answer: box plots provide a coarser summary of the data, provide more of
+a summary of a distribution can also be seen as an advantage in certain
+cases, also the point in the graph or mapping it’s most clearly than
+violin plots.
+
 E5. Visualize the relationship between plastic waste per capita and
 mismanaged plastic waste per capita using a scatterplot. Describe the
 relationship.

@@ -133,7 +133,13 @@ E4.  Convert your side-by-side box plots from the previous task to [violin plots
 
 
 **Remember:** We use `geom_point()` to make scatterplots.
-
+```{r plastic_waste_per_cap-violin-plots}
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
+```
+Answer: box plots provide a coarser summary of the data, provide more of a summary of a distribution can also be seen as an advantage in certain cases, also the point in the graph or mapping it's most clearly than violin plots.
 
 E5.  Visualize the relationship between plastic waste per capita and mismanaged plastic waste per capita using a scatterplot.
     Describe the relationship.
