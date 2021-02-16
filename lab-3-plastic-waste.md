@@ -198,7 +198,7 @@ geom_point()
 ```
 
 Answer: Europe (Positive)relationship, Africa is the most
-(mismanged\_plastic\_watse\_per\_cap), North America the most
+(mismanged\_plastic\_waste\_per\_cap), North America the most
 (plastic\_waste\_per\_cap).
 
 E7. Visualize the relationship between plastic waste per capita and

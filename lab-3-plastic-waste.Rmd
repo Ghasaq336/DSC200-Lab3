@@ -161,7 +161,7 @@ mapping = aes(x = mismanaged_plastic_waste_per_cap, color = continent, fill = co
 y = plastic_waste_per_cap)) +
 geom_point()
 ```
-Answer: Europe (Positive)relationship, Africa is the most (mismanged_plastic_watse_per_cap), North America the most (plastic_waste_per_cap).
+Answer: Europe (Positive)relationship, Africa is the most (mismanged_plastic_waste_per_cap), North America the most (plastic_waste_per_cap).
 
 E7.  Visualize the relationship between plastic waste per capita and total population as well as plastic waste per capita and coastal population.
     You will need to make two separate plots.
